@@ -19,7 +19,7 @@ CREATE TABLE PUBLIC.host_info (
     CONSTRAINT host_info_un UNIQUE (hostname)
 );
 END IF;
-End $$
+End $$;
 
 -- create 'host_usage' table if not exists
 DO $$ BEGIN IF NOT EXISTS (
@@ -39,4 +39,4 @@ CREATE TABLE PUBLIC.host_usage
         host_info(id)
 );
 END IF;
-End $$
+End $$;
