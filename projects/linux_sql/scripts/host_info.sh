@@ -1,5 +1,3 @@
-# script psql_host psql_port db_name psql_user psql_password
-
 # Setup Arguments
 psql_host=$1
 psql_port=$2
@@ -26,7 +24,7 @@ timestamp=$(date "+%Y-%m-%d %H:%M:%S")
 # Create Insert Statements
 insert_stmt="INSERT INTO host_info (
 hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, timestamp, total_mem)
-VALUES('$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz', '$l2_cache', '$timestamp', '$total_mem');"
+VALUES('$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz', '$l2_cache', '$timestamp', '$total_mem')";
 # Execute Insert Into PSQL Database
 export PGPASSWORD=$psql_password
 psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
