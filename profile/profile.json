@@ -1,0 +1,106 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor of Sciences, Math \u0026 Computer Science",
+      "department": "Science",
+      "duration": "May 2025",
+      "school_name": "McMaster University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_SalahSalah/tree/develop",
+  "highlighted_projects": [
+    {
+      "description": "Built a production-ready AI triage assistant integrating the Google Gemini API, generating real-time, structured symptom analysis via a message-driven pipeline with ~70% accuracy across diverse clinical test scenarios",
+      "git_url": "https://baymax-ten-amber.vercel.app/",
+      "name": "Agentic AI Triage Service"
+    },
+    {
+      "description": "Trained a Convolutional Neural Network (CNN) Machine Learning Model in PyTorch to classify lung opacity from X-ray scanned images, achieving 80\\% accuracy and supporting early detection of respiratory conditions",
+      "git_url": "https://github.com/salahs2/CheXpert-Model-CNN",
+      "name": "Lung Diagnosis ML Model Stanford CheXpert Model"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Developed a Linux Cluster Monitoring system that collects and stores hardware specifications and runtime metrics from multiple Linux machines communicating over internal IPv4 networks. Designed automated SQL-based reporting scripts to support system health monitoring and resource allocation analysis.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": "Built a Python-based data analytics pipeline using SQL and Pandas to process, clean, and analyze structured datasets. Implemented ETL workflows and generated automated reporting dashboards to extract business insights from raw data sources.",
+      "git_url": "/python_data_anlytics",
+      "name": "Python Data Analytics"
+    }
+  ],
+  "name": "Salah Salah",
+  "others": [
+    {
+      "bullets": [
+        "Recreational Basketball",
+        "Reading (Science Fiction)",
+        "Body Building / Calisthenics"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis Consulting Group",
+      "description": "Working on data engineering and machine learning pipelines, focusing on building scalable ETL systems, automating data workflows, and supporting model deployment in production environments. Contribute to system design, debugging, and optimization of distributed data pipelines.",
+      "duration": "May 2026 - Present",
+      "title": "Jr Machine Learning Engineer"
+    },
+    {
+      "company": "McMaster - Department of Physics \u0026 Anatomy",
+      "description": "Developed full-stack web applications to support academic research workflows, including data visualization tools and backend APIs. Collaborated with researchers to translate scientific requirements into functional software systems using Python, JavaScript, and database technologies.",
+      "duration": "May 2023 - Dec 2023",
+      "title": "Full Stack Software Engineer"
+    },
+    {
+      "company": "McMaster, St Joseph's Hospital (Health Research Methods, Evidence \u0026 Impact)",
+      "description": "Supported clinical and healthcare research by applying statistical analysis and data processing techniques to real-world medical datasets. Assisted in evaluating research methodologies and contributing to evidence-based healthcare studies with a focus on reproducibility and data integrity.",
+      "duration": "Jun 2023 - Dec 2023",
+      "title": "Research Assistant"
+    },
+    {
+      "company": "HOOPP",
+      "description": "Conducted due diligence and financial analysis on private equity special situations investments. Built financial models, analyzed deal structures, and evaluated risk-return profiles of investment opportunities within alternative asset portfolios.",
+      "duration": "May 2022 - Aug 2022",
+      "title": "Private Equity Intern"
+    },
+    {
+      "company": "Fidelity",
+      "description": "Developed backend tools and data pipelines supporting quantitative risk analysis and pricing models. Worked with large financial datasets, improving data processing efficiency and contributing to risk reporting systems used for portfolio management decisions.",
+      "duration": "Jan 2022 - Apr 2022",
+      "title": "Backend Software Engineer, Quantitative Risk"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Linux / Bash",
+      "Docker",
+      "Agile / Scrum",
+      "AWS (S3, EC2, Lambda)",
+      "REST APIs / Backend Development",
+      "Git / CI/CD Workflows"
+    ],
+    "familiar": [
+      "Hadoop",
+      "Apache Spark",
+      "C++",
+      "MATLAB",
+      "Kubernetes",
+      "R"
+    ],
+    "proficient": [
+      "Python",
+      "JavaScript / Typescript",
+      "React",
+      "PostgreSQL",
+      "Machine Learning (PyTorch, Scikit-learn)",
+      "Data Structures \u0026 Algorithms"
+    ]
+  },
+  "summary": "McMaster University graduate in Mathematics \u0026 Computer Science with internship experience in capital markets and software development at Fidelity \u0026 HOOPP and experience in healthcare statistics research."
+}
