@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learnshap
+category_encoders
+joblib
+scipy
+openpyxl
